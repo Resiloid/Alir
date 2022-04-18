@@ -158,7 +158,18 @@ margin: 0
     border-style: double;
     border-radius: 2px;
 }
-
+.characterParagraph5{
+    color: 	#D5AD6D;
+    text-align: Justify;
+    font-size: xx-large;
+    float: left;
+    padding: 10px;
+    border-color: #D5AD6D ;
+    border-width: 10px;
+    border-style: double;
+    border-radius: 2px;
+    text-shadow: 2px 1px rgb(27, 27, 27);
+}
 .Powers{
     color: rgb(216, 3, 3)
 
@@ -236,8 +247,16 @@ text-align: justify;
 }
 .KalistaAbilities1{
     text-align: justify;
-    color: rgb(250, 0, 0)
-
+    color: rgb(250, 0, 0);
+    margin: 1%;
+font-size: xx-large;
+margin: 0
+}
+.AnuraAbilities{
+    text-align: justify;
+    color: rgb(25, 0, 255)
+;
+text-shadow: 2px 2px rgb(0, 0, 0);
 }
 .PhilAbilities{
     text-align: justify;
