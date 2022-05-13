@@ -112,7 +112,7 @@ background-size: auto;
     }
 
 
-    @media (min-width: 768px) {
+    @media (max-width: 1000px) {
 
         .Navigationcont{
             height: fit-content;
@@ -149,9 +149,9 @@ background-size: auto;
     margin-top: 55px;
     background-color: #020231;
     border: #00ffdd solid 1px;
-    margin-left: 30%;
-    margin-right: 30%;
-    
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 800px;
     
 }
 
@@ -161,7 +161,7 @@ border: #00ffdd solid 1px;
 border-radius: 4px;
 height: fit-content;
 text-align: center;
-width: fit-content;
+width: 800px;
 position: relative;
 transition: background-image width 2s ease-out;
 
@@ -172,7 +172,7 @@ transition: background-image width 2s ease-out;
     border-radius: 4px;
     height: fit-content;
     text-align: center;
-    width: fit-content;
+    width: 800px;
     position: relative;
     transition: background-image width 2s ease-out;
     
