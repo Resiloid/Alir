@@ -1,3 +1,191 @@
+.Navigationcont{
+height: fit-content;
+display: flex;
+flex-direction: row;
+align-items: stretch;
+justify-content: space-between;
+background-image: url(HeaderBackgroundIndex.jpg);
+}
+.NavBlock{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border-bottom: #020231 solid 2px;
+
+}
+.NavBlock1{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border-bottom: #020231 solid 2px;
+
+}
+.NavOptions{
+    text-align: center;
+    margin: 5px;
+    display: none;
+    position: absolute;
+    margin-top: 55px;
+    background-color: #020231;
+    border: #00ffdd solid 1px;
+    
+    
+}
+
+.navpoint{
+margin: 0%;
+border: #00ffdd solid 1px;
+border-radius: 4px;
+height: fit-content;
+text-align: left;
+width: 400px;
+position: relative;
+transition: background-image width 2s ease-out;
+
+}
+.navpoint1{
+    margin: 0%;
+    border: #00ffdd solid 1px;
+    border-radius: 4px;
+    height: fit-content;
+    text-align: left;
+    width: fit-content;
+    position: relative;
+    transition: background-image width 2s ease-out;
+    
+    }
+.LeadersoftheRealms{
+
+    text-align: center;
+    margin: 5px;
+    display: none;
+    position: absolute;
+    margin-top: 55px;
+    background-color: #020231;
+    border: #00ffdd solid 1px;
+    width: 15%;
+}
+
+.NavNPC{
+ text-align: center;
+    margin: 5px;
+    display: none;
+    position: absolute;
+    margin-top: 55px;
+    background-color: #020231;
+    border: #00ffdd solid 1px;
+    width: 15%;
+
+}
+
+
+
+
+
+
+
+.NavBlock:hover div{
+    display: block;
+}
+.NavBlock1:hover div{
+    display: block;
+}
+
+.NavNPC:hover div{
+    display: block;
+}
+
+.navpoint:hover  {
+background-image: url(MenuBackground.jpg);
+background-repeat: repeat;
+background-size: auto;
+
+}
+.navpoint1:hover {
+    background-image: url(MenuBackground.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+    }
+
+
+    @media (min-width: 768px) {
+
+        .Navigationcont{
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: space-between;
+            background-image: url(HeaderBackgroundIndex.jpg);
+
+            }
+.NavBlock{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border-bottom: #020231 solid 2px;
+
+}
+.NavBlock1{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border-bottom: #020231 solid 2px;
+
+}
+.NavOptions{
+    text-align: center;
+    margin: 5px;
+    display: none;
+    position: absolute;
+    margin-top: 55px;
+    background-color: #020231;
+    border: #00ffdd solid 1px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    
+}
+
+.navpoint{
+margin: 0%;
+border: #00ffdd solid 1px;
+border-radius: 4px;
+height: fit-content;
+text-align: center;
+width: fit-content;
+position: relative;
+transition: background-image width 2s ease-out;
+
+}
+.navpoint1{
+    margin: 0%;
+    border: #00ffdd solid 1px;
+    border-radius: 4px;
+    height: fit-content;
+    text-align: center;
+    width: fit-content;
+    position: relative;
+    transition: background-image width 2s ease-out;
+    
+    }
+
+    }
+
+
+
+
+
+
+
 h1{
     color:#b200c2 ;
     text-align: center;
@@ -247,7 +435,7 @@ text-align: justify;
 }
 .KalistaAbilities1{
     text-align: justify;
-    color: rgb(250, 0, 0);
+    color: rgb(255, 116, 243);
     margin: 1%;
 font-size: xx-large;
 margin: 0;
