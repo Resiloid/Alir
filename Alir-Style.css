@@ -433,6 +433,11 @@ text-align: justify;
     color: rgb(0, 221, 250)
 
 }
+.RoxieAbilities{
+    text-align: justify;
+    color: rgb(250, 0, 0);
+    
+}
 .KalistaAbilities1{
     text-align: justify;
     color: rgb(255, 116, 243);
@@ -443,7 +448,7 @@ text-shadow: 1px 1px black ;
 }
 .AnuraAbilities{
     text-align: justify;
-    color: rgb(25, 0, 255)
+    color: rgb(0, 216, 29)
 ;
 text-shadow: 2px 2px rgb(0, 0, 0);
 }
