@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alir - Levers puzzle</title>
+  <link rel="stylesheet" href="../Alir-Style.css"> 
+  <script src="levers-puzzle.js" defer></script>
+  <style>
+    #leversWidget {
+        width: 100%;
+        min-width: 800px;
+        max-width: 1200px;
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+
+    .lever-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 4%;
+        margin: 0 0.5%;
+        cursor: pointer;
+    }
+
+    .lever {
+        flex-grow: 1;
+        position: relative;
+        width: 10px;
+        height: 50px;
+        border-radius: 3px;
+        background: #ddd;
+        cursor: pointer;
+    }
+
+    .lever-wrapper .lever::after {
+        content: "";
+        position: absolute;
+        top: calc(100% - 15px);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 15px;
+        height: 15px;
+        border-radius: 4px;
+        background: #880808;
+        transition: top 400ms ease-in-out;
+    }
+
+    .lever-wrapper.on .lever {
+        background: #efd9d9;
+    }
+
+    .lever-wrapper.on .lever::after {
+        bottom: auto;
+        top: 0;
+    }
+
+    .lever-title {
+        margin-bottom: 5px;
+        font-size: 10px;
+        font-style: italic;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .lever-index {
+        padding: 5px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: small;
+    }
+
+    #leversEffects li {
+        padding: 5px 0;
+    }
+
+    #leversEffects li.disabled {
+        text-decoration: line-through;
+        color: #bbb;
+    }
+  </style>
+</link>
+</head>
+<body>
+  <h5 style="margin: 20px">Levers Puzzle</h5>
+  <div id="leversWidget"></div>
+  <h6 style="color: #444; font-size: 20px">Effects</h6>
+  <ol id="leversEffects"></ol>
+</body>
+</html>
